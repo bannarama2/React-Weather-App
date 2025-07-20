@@ -1,70 +1,134 @@
-# Getting Started with Create React App
+# 🌤️ React Weather Forecast App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A sleek, responsive weather forecast app built with **React** and **Tailwind CSS**. It allows users to search for a city and get the current weather conditions along with a 3-day forecast, powered by the [WeatherAPI](https://www.weatherapi.com/).
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## ✨ Features
 
-### `npm start`
+- 🔍 Search for any city worldwide
+- 📍 Displays current temperature, condition, humidity, and wind
+- 📅 3-day weather forecast
+- 🖥️ Mobile-first responsive UI
+- 🎨 Styled with Tailwind CSS and custom gradients
+- 🌐 Uses the WeatherAPI with real-time data fetching
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🛠️ Technologies Used
 
-### `npm test`
+- **React** (functional components and hooks)
+- **Tailwind CSS**
+- **WeatherAPI** (REST API)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## 📦 Installation
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. **Clone the repository:**
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```bash
+git clone https://github.com/bannarama2/React-Weather-App.git
+cd your-repo-name
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+2. **Install dependencies:**
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+```bash
+npm install
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+---
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+3. **Add your API key:**
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Create a .env file in the root of your project and add:
 
-## Learn More
+```
+REACT_APP_API_KEY=your_weatherapi_key_here
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Your key is kept private thanks to environment variables.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+---
 
-### Code Splitting
+4. **Start the app:**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Always show details
 
-### Analyzing the Bundle Size
+```bash
+npm start
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Then open http://localhost:3000 in your browser if npm didn't automatically open it for you.
 
-### Making a Progressive Web App
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## 🚀 Usage
 
-### Advanced Configuration
+Type a city name (e.g., "Paris") into the input.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Press Enter or click the Search button.
 
-### Deployment
+The app displays:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+    City & country
 
-### `npm run build` fails to minify
+    Current temperature in °C
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+    Condition description
+
+    Humidity and wind speed
+
+    3-day forecast temperatures
+
+
+🔒 Error Handling
+
+    Displays "City not found" if an invalid name is entered
+
+    Shows "Error fetching response" for network/API issues
+
+    Ignores empty submissions
+
+🎨 Styling
+
+The app uses Tailwind CSS for all styling, including:
+
+    Gradient backgrounds
+
+    Glassmorphism containers
+
+    Rounded cards for forecast entries
+
+    Fully mobile-optimized layout
+
+🧱 Dependencies
+
+Always show details
+```
+{
+  "react": "^18.x",
+  "react-dom": "^18.x",
+  "react-scripts": "^5.x",
+  "tailwindcss": "^3.x"
+}
+```
+
+---
+
+## 📄 License
+
+This project is open source and available under the MIT License.
+🙌 Acknowledgements
+
+    WeatherAPI.com – Free weather data API
+
+    Tailwind CSS – Utility-first CSS framework
+
+👤 Author
+
+Developed by Bannie
+GitHub: @bannarama2
