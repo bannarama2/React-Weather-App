@@ -2,6 +2,11 @@
 
 A sleek, responsive weather forecast app built with **React** and **Tailwind CSS**. It allows users to search for a city and get the current weather conditions along with a 3-day forecast, powered by the [WeatherAPI](https://www.weatherapi.com/).
 
+👤 Author
+
+Developed by Bannie
+GitHub: @bannarama2
+
 ---
 
 ## ✨ Features
@@ -127,8 +132,3 @@ This project is open source and available under the MIT License.
     WeatherAPI.com – Free weather data API
 
     Tailwind CSS – Utility-first CSS framework
-
-👤 Author
-
-Developed by Bannie
-GitHub: @bannarama2
