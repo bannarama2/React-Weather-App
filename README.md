@@ -34,7 +34,7 @@ cd your-repo-name
 
 ---
 
-Install dependencies:
+2. **Install dependencies:**
 
 ```bash
 npm install
@@ -42,71 +42,56 @@ npm install
 
 ---
 
-Add your API key:
+3. **Add your API key:**
 
 Create a .env file in the root of your project and add:
 
+```
 REACT_APP_API_KEY=your_weatherapi_key_here
+```
 
 Your key is kept private thanks to environment variables.
 
 ---
 
-Start the app:
+4. **Start the app:**
 
 Always show details
 
+```bash
 npm start
+```
 
-Then open http://localhost:3000 in your browser.
-📁 Project Structure
+Then open http://localhost:3000 in your browser if npm didn't automatically open it for you.
 
-Always show details
+## 📁 Project Structure
+
 
 src/
 ├── App.js          # Main app logic
 ├── Forecast.js     # Component for 3-day forecast
 └── Search.js       # Input field and search button
 
-🚀 Usage
+---
 
-    Type a city name (e.g., "Paris") into the input.
+## 🚀 Usage
 
-    Press Enter or click the Search button.
+Type a city name (e.g., "Paris") into the input.
 
-    The app displays:
+Press Enter or click the Search button.
 
-        City & country
+The app displays:
 
-        Current temperature in °C
+    City & country
 
-        Condition description
+    Current temperature in °C
 
-        Humidity and wind speed
+    Condition description
 
-        3-day forecast temperatures
+    Humidity and wind speed
 
-💻 Example Output
+    3-day forecast temperatures
 
-Current:
-
-    City: London, United Kingdom
-
-    Temp: 21°C
-
-    Condition: Sunny
-
-    Humidity: 45%
-
-    Wind: 12 kph
-
-Forecast:
-
-    Today: 21°C
-
-    Tuesday: 19°C
-
-    Wednesday: 18°C
 
 🔒 Error Handling
 
