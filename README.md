@@ -112,7 +112,6 @@ The app uses Tailwind CSS for all styling, including:
 
 🧱 Dependencies
 
-Always show details
 ```
 {
   "react": "^18.x",
