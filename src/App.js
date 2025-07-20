@@ -48,10 +48,10 @@ function App() {
 
         {weather && (
           <div className='p-4 bg-white/20 backdrop-blur-2xl w-[260px] h-[240px] flex justify-between flex-col items-center rounded-2xl'>
-            <h2>{weather.location.name}, {weather.location.country}</h2>
-            <h1>{weather.current.temp_c}°C</h1>
-            <p>{weather.current.condition.text}</p>
-            <p>Humidity: {weather.current.humidity}% | Wind: {weather.current.wind_kph} kph</p>
+            <h2 className='text-white text-xl'>{weather.location.name}, {weather.location.country}</h2>
+            <h1 className='text-white text-2xl'>{weather.current.temp_c}°C</h1>
+            <p className='text-white text-lg'>{weather.current.condition.text}</p>
+            <p className='text-white text-md'>Humidity: {weather.current.humidity}% | Wind: {weather.current.wind_kph} kph</p>
             <img src={weather.current.condition.icon} alt='weather icon'></img>
           </div>
         )}
