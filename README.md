@@ -1,3 +1,157 @@
+# 🌤️ React Weather Forecast App
+
+A sleek, responsive weather forecast app built with **React** and **Tailwind CSS**. It allows users to search for a city and get the current weather conditions along with a 3-day forecast, powered by the [WeatherAPI](https://www.weatherapi.com/).
+
+---
+
+## ✨ Features
+
+- 🔍 Search for any city worldwide
+- 📍 Displays current temperature, condition, humidity, and wind
+- 📅 3-day weather forecast
+- 🖥️ Mobile-first responsive UI
+- 🎨 Styled with Tailwind CSS and custom gradients
+- 🌐 Uses the WeatherAPI with real-time data fetching
+
+---
+
+## 🛠️ Technologies Used
+
+- **React** (functional components and hooks)
+- **Tailwind CSS**
+- **WeatherAPI** (REST API)
+
+---
+
+## 📦 Installation
+
+1. **Clone the repository:**
+
+```bash
+git clone https://github.com/your-username/your-repo-name.git
+cd your-repo-name
+
+    Install dependencies:
+
+Always show details
+
+npm install
+
+    Add your API key:
+
+Create a .env file in the root of your project and add:
+
+Always show details
+
+REACT_APP_API_KEY=your_weatherapi_key_here
+
+    Your key is kept private thanks to environment variables.
+
+    Start the app:
+
+Always show details
+
+npm start
+
+Then open http://localhost:3000 in your browser.
+📁 Project Structure
+
+Always show details
+
+src/
+├── App.js          # Main app logic
+├── Forecast.js     # Component for 3-day forecast
+└── Search.js       # Input field and search button
+
+🚀 Usage
+
+    Type a city name (e.g., "Paris") into the input.
+
+    Press Enter or click the Search button.
+
+    The app displays:
+
+        City & country
+
+        Current temperature in °C
+
+        Condition description
+
+        Humidity and wind speed
+
+        3-day forecast temperatures
+
+💻 Example Output
+
+Current:
+
+    City: London, United Kingdom
+
+    Temp: 21°C
+
+    Condition: Sunny
+
+    Humidity: 45%
+
+    Wind: 12 kph
+
+Forecast:
+
+    Today: 21°C
+
+    Tuesday: 19°C
+
+    Wednesday: 18°C
+
+🔒 Error Handling
+
+    Displays "City not found" if an invalid name is entered
+
+    Shows "Error fetching response" for network/API issues
+
+    Ignores empty submissions
+
+🎨 Styling
+
+The app uses Tailwind CSS for all styling, including:
+
+    Gradient backgrounds
+
+    Glassmorphism containers
+
+    Rounded cards for forecast entries
+
+    Fully mobile-optimized layout
+
+🧱 Dependencies
+
+Always show details
+
+{
+  "react": "^18.x",
+  "react-dom": "^18.x",
+  "react-scripts": "^5.x",
+  "tailwindcss": "^3.x"
+}
+
+    Install Tailwind using this guide if it's not already configured.
+
+📄 License
+
+This project is open source and available under the MIT License.
+🙌 Acknowledgements
+
+    WeatherAPI.com – Free weather data API
+
+    Tailwind CSS – Utility-first CSS framework
+
+👤 Author
+
+Developed by Bannie
+GitHub: @bannarama2
+
+---
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
