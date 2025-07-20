@@ -28,26 +28,31 @@ A sleek, responsive weather forecast app built with **React** and **Tailwind CSS
 1. **Clone the repository:**
 
 ```bash
-git clone https://github.com/your-username/your-repo-name.git
+git clone https://github.com/bannarama2/React-Weather-App.git
 cd your-repo-name
+```
 
-    Install dependencies:
+---
 
-Always show details
+Install dependencies:
 
+```bash
 npm install
+```
 
-    Add your API key:
+---
+
+Add your API key:
 
 Create a .env file in the root of your project and add:
 
-Always show details
-
 REACT_APP_API_KEY=your_weatherapi_key_here
 
-    Your key is kept private thanks to environment variables.
+Your key is kept private thanks to environment variables.
 
-    Start the app:
+---
+
+Start the app:
 
 Always show details
 
