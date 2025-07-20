@@ -64,14 +64,6 @@ npm start
 
 Then open http://localhost:3000 in your browser if npm didn't automatically open it for you.
 
-## 📁 Project Structure
-
-
-src/
-├── App.js          # Main app logic
-├── Forecast.js     # Component for 3-day forecast
-└── Search.js       # Input field and search button
-
 ---
 
 ## 🚀 Usage
@@ -116,13 +108,14 @@ The app uses Tailwind CSS for all styling, including:
 🧱 Dependencies
 
 Always show details
-
+```
 {
   "react": "^18.x",
   "react-dom": "^18.x",
   "react-scripts": "^5.x",
   "tailwindcss": "^3.x"
 }
+```
 
     Install Tailwind using this guide if it's not already configured.
 
